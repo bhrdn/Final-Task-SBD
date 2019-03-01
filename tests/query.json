@@ -1,0 +1,22 @@
+{
+    "query": {
+        "basic": [
+            "SELECT name FROM users;",
+            "SELECT nama FROM users;",
+            "SELECT * FROM users;"
+        ],
+        "join": [
+            "SELECT u.name FROM users u JOIN transactions t ON (u.id=t.id_user);"
+        ]
+    },
+    "result": {
+        "basic": [
+            "habib:bahruddin",
+            "nama not found",
+            "1,habib,a@a.com,123:2,bahruddin:b@b.com,456"
+        ],
+        "join": [
+            "habib"
+        ]
+    }
+}
