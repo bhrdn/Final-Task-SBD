@@ -15,3 +15,6 @@
 ```
 java Main
 ```
+
+## etc
+python version: https://gist.github.com/bhrdn/c9e52bb8f1751a031a4d3104cf7c4835
